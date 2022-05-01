@@ -1,10 +1,10 @@
-@import url('http://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url("http://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 body {
@@ -18,17 +18,19 @@ body {
 .card {
     position: relative;
     width: 300px;
-    height: 400px;
+    height: 450px;
     padding: 20px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 25px 25px 50px rgba(9, 148, 255, 0.25), -10px -10px 30px rgba(9, 148, 255, 0.1), inset -5px -5px 15px rgba(9, 148, 255, 0.5);
+    box-shadow: 25px 25px 50px rgb(0 144 255 / 25%),
+        -10px -10px 30px rgb(9 148 255 / 10%),
+        inset -5px -5px 15px rgb(255 255 255 / 50%);
 }
 
 .card .imgBx {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 250px;
     overflow: hidden;
     border-radius: 6px;
 }
@@ -47,11 +49,10 @@ body {
     padding: 30px 20px;
     display: grid;
     place-items: center;
-
 }
 
 .card .content h3 {
-    color: #0994ff;
+    color: #065692;
     text-align: center;
     font-weight: 600;
     text-transform: uppercase;
@@ -63,7 +64,6 @@ body {
     font-weight: 500;
     color: #333;
     text-transform: initial;
-
 }
 
 .card .content .sci {
@@ -71,7 +71,7 @@ body {
     display: flex;
     margin-top: 15px;
     justify-content: center;
-
+    list-style-type: none;
 }
 
 .card .content .sci li a {
@@ -83,8 +83,9 @@ body {
     place-items: center;
     text-decoration: none;
     background: #fff;
-    color: #0994ff;
+    color: #065692;
     font-size: 1.15em;
-    box-shadow: 25px 25px 50px rgba(9, 148, 255, 0.25), -10px -10px 30px rgba(9, 148, 255, 0.5), inset -5px -5px 15px rgba(9, 148, 255, 0.25);
+    box-shadow: 25px 25px 50px rgb(9 148 255 / 30%),
+        inset -5px -5px 15px rgb(252 254 255 / 25%);
     border-radius: 15px;
 }
